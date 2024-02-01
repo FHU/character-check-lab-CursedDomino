@@ -4,7 +4,7 @@ def check_character(word, index):
    elif word[index:index + 1].isnumeric():
       return 'digit'
    elif word[index] == ' ':
-      return 'whitespace'
+      return 'white space'
    else:
       return 'unknown'
 
