@@ -8,7 +8,6 @@ def check_character(word, index):
    else:
       return 'unknown'
 
-
 if __name__ == '__main__': 
     print(check_character('happy birthday', 2))
     print(check_character('happy birthday', 5))
